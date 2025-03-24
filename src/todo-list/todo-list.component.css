@@ -1,0 +1,25 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+.todo-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.delete-name {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-name:hover {
+  background-color: darkred;
+}

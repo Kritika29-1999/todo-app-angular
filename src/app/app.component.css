@@ -1,0 +1,30 @@
+.new-todo-name {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.add-todo {
+  padding: 8px 15px;
+  margin-left: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-todo:hover {
+  background-color: darkgreen;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+app-todo-list {
+  display: block;
+  margin: 5px 0;
+}
